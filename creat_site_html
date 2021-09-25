@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html>
+<head> <!--onde ficam informações ocultas no site-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--links gerados a partir do Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@200&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/normalize.css"> <!--chama o arquivo normalize.cc-->    
+<link rel="stylesheet" type="text/css" href="css/style.css"> <!--chama o arquivo style.css-->
+    <title>Convento da Penha</title> <!--título-->
+</head>
+
+<body> <!--onde são inseridas as informações visuais do site-->
+
+    <nav>
+        <a href="#">Conheça o Convento da Penha</a> <!--criamos espaço onde será possível inserir link para outras páginas-->
+            <ul> <!--tag usada para criar o menu-->
+                <li><a href="#sobre">Sobre o Convento</a></li> <!--a tag <li> criamos item no menu a tag <a haref> tem a função de criar algum link quando clicar. usamos âncora #-->
+                <li><a href="#sobre">Fotos</a></li>
+                <li><a href="#sobre">Horário das Missas</a></li>
+            </ul>
+        </nav>
+        
+        <header id="topo"> <!--para topo-->
+            <h1>Convento da Penha</h1> <!--título mais relevante, aumenta a chance do site aparecer em busca-->
+            
+
+            <a href="Fotos"> Ver mais </a>
+        </header>
+    
+        <section id="sobre"> <!--cria seção do site-->
+            <h2>Sobre o Convento da Penha</h2>
+            <p>O Convento da Penha foi fundado por Frei Pedro Palácios, que chegou ao Espírito Santo em 1558, com a imagem da Nossa Senhora das Alegrias.O santuário foi construído depois da imagem da Nossa Senhora das Alegrias desaparecer três vezes da gruta do Frei Pedro Palácios e aparecer no alto do morro.
+        
+            O santuário testemunha, desde os primórdios do povoamento da terra capixaba, a trajetória histórica evangelizadora dos religiosos da Ordem dos Frades Menores da Província Franciscana da Imaculada Conceição do Brasil e, também, a devoção a Nossa Senhora da Penha, padroeira do Estado do Espírito Santo, que ultrapassa as barreiras do Estado, pois milhares de romeiros e devotos chegam ao Santuário para visita-lo, render graças e apresentar suas homenagens e pedidos.
+        
+            Hoje o Santuário da Penha abrange uma área de 632.226 m2. No seu interior abriga séculos e séculos de história, de fé e esperança, de devoção e coragem e é sem dúvida considerado o maior atrativo turístico e religioso do Estado do Espírito Santo - https://conventodapenha.org.br/conhecendo-o-convento/</p>
+        
+        </section>
+        
+        <section id="Fotos">
+            <h2>Fotos</h2>
+            <img src="img/conv1.jpg" alt = "Convento"> <!--inserção de imagens-->
+            <img src="img/conv.jpg" alt = "Convento">
+            <img src="img/interior.jpg" alt = "Interior">
+        </section>
+        
+        <section id="Horario das Missas">
+                <h2>Horário das Missas</h2>
+                <p>As missas acontecem durate toda a semana, com missa presencial e pelas redes sociais.</
+                <p>Segunda a sábado: 7h e 15h* (*transmitida pela internet).</p>
+                <p>Domingos: 6h, 9h* e 16h (trnsmitida pela internet).</p>
+                <a heaf="#Horario das missas"> Venha participar!</a>
+        </section>
+            
+        </section id="endereco">
+            <h2>Endereço</h2>
+            <p>Rua Vasco Coutinho - Prainha, Vila Velha - ES, 29100-231</p>
+        
+        <footer>
+            <a href="#topo">voltar <a> <!--retorna ao topo-->
+                <p>Em desenvolvimento por JLRomualdo, atividade no curso "Análise e Desenvolvimento de Sistemas", segundo semestre/2021 :)</p>
+        
+        </footer>
+        
+        </body>
+        </html>
+            </ul>
+    
+    </nav>
+</body>
+</html>
