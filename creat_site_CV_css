@@ -1,0 +1,75 @@
+body{
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+h1, h2, h3{
+    font-family: Asap, sans-serif;
+    color: #000000;
+}
+
+
+/*navegação*/
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+}
+
+nav <a{
+        text-decoration: none;
+        color:#FFFFFF;
+        font-weight: 800;
+        font-size: 32px;
+        font-family: arial, serif;
+}
+
+nav ul> {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding:0;
+    width: 100% /*com isso o menu irá ocupar 100% da largura da plaraforma que estiver exibindo - responsivo */
+
+}
+
+nav ul li { /*vamos editar o estilo dos itens do texto menu*/
+            text-align: center;
+            width: 100%;
+
+}
+
+nav ul li a {
+                /*transformando todos os links em um bloco*/
+            display: inline-block;
+            padding: 10px 0; /*espaçamento de 10 e 0 no final para retirar o espaçamento da letra entre o bloco*/
+            width: 100%;
+            text-decoration: none; /*retirar o sublinhado*/
+            color:#FFFFFF;
+}
+    /*menu finalizado*/
+
+    /*cabeçalho*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/conv.jpg");
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px; 
+
+}
+
+header h1{
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 780px)
